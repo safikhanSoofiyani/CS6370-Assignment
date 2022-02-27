@@ -26,8 +26,9 @@ class Tokenization():
 		tokenizedText = None
 
 		#Fill in code here
-		tokenizedText = text.split()
-		tokenizedText = tokenizedText[:len(tokenizedText)-1]
+		for i in text:
+			temp = text.split(i)
+			tokenizedText.append(temp[:len(temp)-1])
 
 		return tokenizedText
 
