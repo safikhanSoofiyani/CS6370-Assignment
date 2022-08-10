@@ -1,6 +1,5 @@
-# CS6370-Assignment
-The assignments of CS6370-Natural Language Processing
-
+# Simple IRS system from scratch
+A simple search engine developed using python
 ### Team Members:
 Alphabetical Order
 - Ganesh Jatavath - CS21M019
